@@ -109,7 +109,7 @@ variable "create_schedules" {
 variable "create_pipes" {
   description = "Controls whether EventBridge Pipes resources should be created"
   type        = bool
-  default     = true
+  default     = false
 }
 
 #######################
