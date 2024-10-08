@@ -293,7 +293,7 @@ variable "attach_ecs_policy" {
 variable "attach_lambda_policy" {
   description = "Controls whether the Lambda Function policy should be added to IAM role for EventBridge Target"
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "attach_sfn_policy" {
